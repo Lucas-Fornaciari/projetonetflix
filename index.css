@@ -1,0 +1,80 @@
+body {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: #fff;
+    text-align: center;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 32px;
+}
+
+figcaption {
+    color: #fff;
+    text-align: center;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 14px;
+}
+
+button {
+    border-radius: 8px;
+    border: 1.5px solid #FFFFFF;
+    box-sizing: border-box;
+    width: 206px;
+    height: 50px;
+    font-size: 16px;
+    background-color: #000000;
+    color: #fff;
+    font-family: 'IBM Plex Sans', sans-serif;
+    margin-top: 50px;
+}
+
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 700px;
+    margin: auto;
+    margin-top: 140px;
+    height: 700px;
+}
+
+.logo {
+    
+}
+
+.img:hover {
+    border: 2px solid grey;
+    -moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+button:hover {
+    border: 2px solid grey;
+    background-color: #fff;
+    color: black;
+}
+
+.figura {
+    width: 160px;
+    height: 160px;
+    overflow: hidden;
+}
+
+.card {
+width: 100%;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+}
+
+figure {
+    margin: 0;
+    padding: 0;
+}
